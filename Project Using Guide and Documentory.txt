@@ -1,0 +1,132 @@
+# Configuring Environment to Run this Project Smoothly: 
+
+
+* Install Node.js: 
+Reference: https://nodejs.org/en/download 
+
+
+* Install ffmpeg:
+Reference: https://ffmpeg.org/download.html 
+
+
+_ _ _ _ _ _ _ _ _ _
+
+
+
+# Here are the steps to install and configure FFmpeg on Windows:
+
+
+1. Download FFmpeg:
+
+--> Visit the FFmpeg download page for Windows: https://ffmpeg.org/download.html
+--> Under the "Windows Builds" section, choose a build suitable for your system (32-bit or 64-bit).
+--> Download the ZIP file containing FFmpeg executable.
+
+
+2. Extract FFmpeg:
+
+--> Create a folder (e.g., "ffmpeg") on your computer where you'd like to store FFmpeg.
+--> Extract the contents of the downloaded ZIP file to this folder.
+
+
+3. Add FFmpeg to System PATH:
+
+--> Open the Start menu and search for "Environment Variables" and select "Edit the system environment variables."
+--> In the System Properties window, click the "Environment Variables" button.
+--> In the "System Variables" section, find the "Path" variable, and click "Edit."
+--> Click "New" and add the full path to the "bin" folder within the folder where you extracted FFmpeg (e.g., C:\path\to\ffmpeg\bin).
+--> Click "OK" to save the changes.
+
+
+4. Verify FFmpeg Installation:
+
+--> Open a new Command Prompt or PowerShell window.
+--> Type ffmpeg -version and press Enter to check if FFmpeg is recognized. You should see information about FFmpeg's version if it's correctly installed. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# How to Use This Project: 
+
+
+* Open "Main.js" and enter the youtube link inside single quotes in line no. 5
+
+* Paste the absolute path of ffmpeg.exe in line no. 49 inside the single quotes. 
+
+* And now run "Main.js". 
+
+* Once the program finishes its execution. 
+
+* Use any media player and open the video which has "converted" word in the last of its name. 
+
+* The other video which doesn't have "converted" word in its name, cannot be played, it doesn't supports media players.
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# They commands which are used to install packages that are used in the project are: 
+
+
+
+npm install fs-js 
+
+npm install ytdl-core@latest 
+
+npm install console-clear 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# Shortcoming of the Project: 
+
+
+* Final video doesn't have the audio. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# My Scenario, Confession and Goal: 
+
+
+--> One of My friend gave me this projects idea and I prompted ChatGPT, used its DAN mode and made him write this final product. 
+
+--> It took me 2 and 1/2 hours of prompting to get this final code out of ChatGPT. 
+
+--> I am currently learning JavaScript as of 30th October 2023. 
+
+--> I don't totally understand the code written by ChatGPT, that's why I was not able to debug it. 
+
+--> Once I finish JavaScript and once I build more projects on my own and I understand logics and Node.js in better way, I will debug this code and I will make it 1st a full fledged working terminal project. and then I will convert it into website. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# Closing Thought: 
+
+@ I can also add find the length of playlist feature in this project's website in future. 
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+# References Cited: 
+
+https://chat.openai.com/
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+
